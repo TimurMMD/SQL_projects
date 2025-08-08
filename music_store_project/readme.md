@@ -9,9 +9,9 @@ The goal of this project was to practice SQL querying skills in **PostgreSQL 17*
 - **Dataset**: Publicly available Music Store database (contains information about customers, invoices, artists, albums, tracks, employees, etc.).
 - **Question Source**: An external set of SQL challenges (linked above).
 - **Structure**: Queries are organized into **three levels** of increasing difficulty:
-  1. **[Easy Level](https://github.com/TimurMMD/SQL_projects/blob/main/music_store_project/easy_queries.sql)** – Basic `SELECT`, `WHERE`, filtering, and sorting.
-  2. **[Moderate Level](https://github.com/TimurMMD/SQL_projects/blob/main/music_store_project/moderate_queries.sql)** – Aggregations, joins, and grouping.
-  3. **[Advanced Level](https://github.com/TimurMMD/SQL_projects/blob/main/music_store_project/advanced_queries.sql)** – Subqueries, CTEs, and analytical functions.
+  1. **[Easy Level](https://github.com/TimurMMD/SQL_projects/blob/main/music_store_project/easy_set.sql)** – Basic `SELECT`, `WHERE`, filtering, and sorting.
+  2. **[Moderate Level](https://github.com/TimurMMD/SQL_projects/blob/main/music_store_project/moderate_set.sql)** – Aggregations, joins, and grouping.
+  3. **[Advanced Level](https://github.com/TimurMMD/SQL_projects/blob/main/music_store_project/advance_set.sql)** – Subqueries, CTEs, and analytical functions.
 - **Tools Used**:
   - **PostgreSQL 17** – SQL execution environment.
   - **pgAdmin** – Database management interface.
