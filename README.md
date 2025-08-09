@@ -11,7 +11,7 @@ Each project is based on real or publicly available datasets and covers various 
 | #  | Project Name | Description | Link |
 |----|--------------|-------------|------|
 | 1  | **Music Store SQL Project** | Practice project using the Chinook Music Store dataset with queries split into easy, moderate, and advanced levels. | [View Project](https://github.com/TimurMMD/SQL_projects/tree/main/music_store_project) |
-| 2  | **Baby Names in USA SQL Project** | Practice project using the State Baby Names dataset with queries split into easy, moderate and advanced levels. | [] |
+| 2  | **Baby Names in USA SQL Project** | Practice project using the State Baby Names dataset with queries split into easy, moderate and advanced levels. | [View Project](https://github.com/TimurMMD/SQL_projects/tree/main/baby_names) |
 > More projects will be added soon!
 
 ---
