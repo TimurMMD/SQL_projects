@@ -17,19 +17,6 @@ The goal of this project was to practice SQL querying skills in **PostgreSQL 17*
   - **pgAdmin** – Database management interface.
   - **Excel** – Used as a CSV container to check and prepare data before loading into PostgreSQL.
 
----
-
-## 📂 Project Structure
-music_store_project/
-│
-├── data/ # CSV dataset files
-├── easy_queries.sql # Beginner-level questions and answers
-├── moderate_queries.sql # Intermediate-level questions and answers
-├── advanced_queries.sql # Advanced-level questions and answers
-└── README.md # Project documentation
-
----
-
 ## 🚀 How to Use
 1. **Clone the repository**:
    ```bash
