@@ -1,6 +1,6 @@
 -- Moderate Set of Questions
 
--- 6. – Name most often #1 in history (MODERATE)
+-- 1. – Name most often #1 in history (MODERATE)
 
 WITH RankedNames AS (
 
@@ -21,7 +21,7 @@ FROM TopRankedNames
 GROUP BY name, gender
 ORDER BY years_at_top DESC
 
--- 7. – Name most often #1 in each state (MODERATE)
+-- 2. – Name most often #1 in each state (MODERATE)
 
 WITH RankedNames AS (
 
@@ -42,7 +42,7 @@ FROM TopRankedNames
 GROUP BY name, gender, state
 ORDER BY years_at_top DESC
 
--- 8. – Largest one-year increase in count (MODERATE)
+-- 3. – Largest one-year increase in count (MODERATE)
 
 WITH YearlyTotals AS (
 SELECT name, gender, year, SUM(count) AS total_count
@@ -62,7 +62,7 @@ ORDER BY increase DESC
 
 
 
--- 9. – State top 3 but not in top 20 nationwide (MODERATE)
+-- 4. – State top 3 but not in top 20 nationwide (MODERATE)
 
 WITH StateTopNames AS (
 SELECT name, year, gender, state, count,
@@ -84,7 +84,7 @@ WHERE state_rank <= 3 AND (name, year) IN (SELECT name, year
 ORDER BY count DESC;
 
 
--- 10. – Top 5 names by YoY growth rate (MODERATE)
+-- 5. – Top 5 names by YoY growth rate (MODERATE)
 
 WITH YearlyTotals AS (
 SELECT name, gender, year, SUM(count) AS total_count
@@ -114,3 +114,4 @@ SELECT name, gender, year, growth_rate, growth_rank
 FROM RankGrowthRate
 WHERE growth_rank <= 10
 ORDER BY growth_rate DESC
+
