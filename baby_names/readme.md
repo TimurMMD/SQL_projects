@@ -23,4 +23,28 @@ The goal of this project was to explore SQL querying in **PostgreSQL 17**, cover
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/TimurMMD/SQL_projects.git
+2. **Load the dataset into PostgreSQL using pgAdmin.**
+
+3. **Open the SQL scripts for each difficulty level**:
+
+- Easy Queries
+
+- Moderate Queries
+
+- Advanced Queries
+
+4. **Run queries level-by-level and explore the results.**
+
+📖 Learning Focus
+This project helps reinforce:
+
+- Data filtering and sorting
+
+- Using different types of joins
+
+- Aggregation and grouping
+
+- Working with subqueries and CTEs
+
+- Applying analytical functions
 
